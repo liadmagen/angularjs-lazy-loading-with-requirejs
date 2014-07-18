@@ -29,7 +29,7 @@ define(['routes','services/dependencyResolverFor'], function(config, dependencyR
                 });
             }
 
-            if(config.defaultRoutePaths !== undefined)
+            if(config.defaultRoutePath !== undefined)
             {
                 $routeProvider.otherwise({redirectTo:config.defaultRoutePaths});
             }
